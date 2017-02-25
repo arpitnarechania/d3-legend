@@ -1,8 +1,8 @@
-# d3-legend
+# d3js-legend
 
-**d3-legend** is an open-source JavaScript library for rendering custom legends using the D3.js library.
+**d3js-legend** is an open-source JavaScript library for rendering custom legends using the D3.js library.
 
-Check out an [Example](https://arpitnarechania.github.io/d3-legend/) where you can test various configuration options.
+Check out an [Example](https://arpitnarechania.github.io/d3js-legend/) where you can test various configuration options.
 
 # Installation
 
