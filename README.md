@@ -33,13 +33,17 @@ Setting chart parameters
 ``` javascript
 
 		Legend({
-		    width : 100,
-		    height: 500,
-            start_color : '#ffffff',
-            end_color : '#e67e22',
+		    length : 600,
+		    thickness: 50,
+            min_color : '#ffffff',
+            max_color : '#3498db',
             max_value : 500,
             min_value : 0,
-            margin : {top:10,bottom:50,left:10,right:10}
+            margin : {top:30,bottom:50,left:30,right:50},
+            orientation : 'vertical',
+            axis_position : 'right',
+            axis_tick_orientation : 'right',
+            min_value_at_start : false
 		});
 
 ```
@@ -58,6 +62,10 @@ Setting chart parameters
 | `min_color`                | The minimum of the color range                                            | string   | `'white'`                 |
 | `max_value`                | The maximum value                                                         | number   | `100`                     |
 | `min_value`                | The minimum value                                                         | number   | `0`                       |
+| `orientation`              | The legend orientation                                                    | string   | `'vertical'`/`'horizontal'`   |
+| `axis_position`            | The position of the axis                                                  | string   | `'left'`/`'right'`/`'bottom'`/`'top'`|
+| `axis_tick_orientation`    | The position of the axis ticks                                            | string   | `'left'`/`'right'`/`'bottom'`/`'top'`|
+| `min_value_at_start`       | Whether legend's minimum value is to be at the start or end               | bool     | `true`                       |
 
 # Author
 
