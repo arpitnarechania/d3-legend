@@ -84,7 +84,6 @@ function drawChart(){
             axis_tick_orientation : axis_tick_orientation,
             min_value_at_start : min_value_at_start
     }
-    console.log(chartOptions);
     Legend(chartOptions);
 }
 
