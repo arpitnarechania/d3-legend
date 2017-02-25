@@ -2,8 +2,8 @@ function Legend(options) {
 
     var width = options.width,
     height = options.height,
-    startColor = options.start_color,
-    endColor = options.end_color,
+    startColor = options.min_color,
+    endColor = options.max_color,
     margin = options.margin,
     maxValue = options.max_value,
     minValue = options.min_value;
@@ -55,5 +55,3 @@ function Legend(options) {
     .call(yAxis)
 
 }
-
-
