@@ -1,6 +1,6 @@
-# D3-Legend
+# d3-legend
 
-**D3-Legend** is an open-source JavaScript library for rendering custom legends using the D3.js library.
+**d3-legend** is an open-source JavaScript library for rendering custom legends using the D3.js library.
 
 Check out an [Example](https://arpitnarechania.github.io/d3-legend/) where you can test various configuration options.
 
@@ -9,7 +9,7 @@ Check out an [Example](https://arpitnarechania.github.io/d3-legend/) where you c
 Download d3-legend using bower.
 
 ```
-bower install d3-legend --save
+bower install d3js-legend --save
 ```
 
 To use this library then, simply include d3.js, legend.js and legend.css:
