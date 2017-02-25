@@ -72,7 +72,7 @@ function drawChart(){
     chartElement.innerHTML="";
 
     var chartOptions = {
-            length : parseFloat(chartElement.offsetWidth*0.75),
+            length : parseFloat(length),
             thickness: parseFloat(thickness),
             min_color : min_color,
             max_color : max_color,
@@ -87,7 +87,7 @@ function drawChart(){
     Legend(chartOptions);
 }
 
-var length = document.getElementById("length").value;
+var length = document.getElementById("legend").offsetWidth*0.75;
 var thickness = document.getElementById("thickness").value;
 
 var margin_top = document.getElementById("margin_top").value;
